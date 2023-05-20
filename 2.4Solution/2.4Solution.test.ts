@@ -53,14 +53,14 @@ describe("Employee Manager 1.2", () => {
         await driver.findElement(phillip).click();
         await driver.wait(
             until.elementTextContains(
-            await driver.findElement(nameDisplay),
+            await driver.findElement(nameInput),
             "Phillip"
             )
         );
         await driver.findElement(bernice).click();
         await driver.wait(
             until.elementTextContains(
-            await driver.findElement(nameDisplay),
+            await driver.findElement(nameInput),
             "Bernice"
             )
         );
@@ -110,7 +110,7 @@ describe("Employee Manager 1.2", () => {
             await driver.findElement(phillip).click();
             await driver.wait(
                 until.elementTextContains(
-                await driver.findElement(bernice),
+                await driver.findElement(nameInput),
                 "Phillip"
                 )
             );
