@@ -9,3 +9,5 @@ export function myFunction(myNum: number): string {
       return "negative";
     }
 }
+
+//this one makes more sense but I would still would like to know how to get a deeper understanding of writing the script

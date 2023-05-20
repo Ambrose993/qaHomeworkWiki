@@ -1,4 +1,4 @@
-describe("Testing the calculator", () => {
+describe("Testing the calculator", () => { //what is describes function?
     test("Example test", () => {
       expect(calculator.add(2, 50)).toBe(52);
     });
@@ -26,7 +26,7 @@ describe("Testing the calculator", () => {
   
   const calculator = {
     /** Takes two numbers and adds them together.
-     * @example
+     * @example                                        //what does @example do here?
      * calculator.add(2, 3) == 5
      */
     add: (a: number, b: number): number => a + b,
@@ -46,3 +46,6 @@ describe("Testing the calculator", () => {
      */
     divide: (a: number, b: number): number => a / b,
   };
+
+  //why is it truthy instead of truth? i got hung up on that lol
+  //comments added
